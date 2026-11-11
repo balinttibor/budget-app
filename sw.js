@@ -1,6 +1,6 @@
 // Caches the small app shell so the Budget icon opens instantly.
 // The budget itself (inside the frame) always loads fresh from Google.
-const CACHE = 'budget-shell-v3';
+const CACHE = 'budget-shell-v4';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
